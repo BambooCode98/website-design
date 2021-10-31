@@ -3,39 +3,76 @@
     flex-direction: column;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px red solid;
-}
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px red solid;
+        padding: 10px;
+    }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1px;
-}
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+        }
 
-a {
-    text-decoration: none;
+        a {
+            text-decoration: none;
 
-}
+        }
 
-.headercontent {
-    border: 1px red solid;
-    height: 200px;
-}
+    .headercontent {
+        border: 1px red solid;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.content {
-    border: 1px red solid;
-    height: 200px;
-}
+        .titlecontent {
+            border: 1px red solid;
+            flex: 1;
+        }
+
+        .imagebox {
+            border: 1px red solid;
+            flex: 1;
+        }
+
+    .content {
+        border: 1px red solid;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .c2 {
+            
+        }
+
+        .fourimages {
+            border: 1px solid blue;
+            display: flex;
+        }
+
+            .infopic {
+                max-width: 200px;
+            }
+
+    .content2 {
+        border: 1px red solid;
+        height: 200px;
+    }
+
+    .content3 {
+        border: 1px red solid;
+        height: 200px;
+    }
 
 
 
-
-
-
-.footer {
-
-}
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
