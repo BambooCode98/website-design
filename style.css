@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px red solid;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.headercontent {
+    border: 1px red solid;
+    height: 200px;
+}
+
+.content {
+    border: 1px red solid;
+    height: 200px;
+}
+
+
+
+
+
+
+.footer {
+
+}
